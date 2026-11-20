@@ -60,7 +60,7 @@ function AirQuality() {
 
             // Send city name to our backend
             const response = await axios.get(
-                `http://localhost:5000/api/airquality?city=${city}`
+                `${API}/api/airquality?city=${city}`
             );
 
             setAirQuality(response.data);

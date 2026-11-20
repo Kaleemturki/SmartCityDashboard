@@ -44,7 +44,7 @@ function Register() {
     try {
 
       const response = await axios.post(
-        "http://localhost:5000/api/auth/register",
+        `${API}/api/auth/register`,
         {
           name: formData.name,
           email: formData.email,

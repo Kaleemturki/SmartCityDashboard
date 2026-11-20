@@ -1,6 +1,7 @@
   
 import { useState } from "react";
 import axios from "axios";
+import API from "../services/api";
 
 function Weather() {
 
@@ -33,7 +34,7 @@ function Weather() {
 
             // Send city to backend
             const response = await axios.get(
-                "http://localhost:5000/api/weather",
+                `${API}/api/weather`,
                 {
                     params: {
                         city: city
