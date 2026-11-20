@@ -1,6 +1,6 @@
 import {Routes,Route, BrowserRouter} from "react-router-dom";
 
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import News from "./pages/News";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
@@ -8,7 +8,7 @@ import Profile from "./pages/Profile";
 import Airquality from "./pages/Airquality";
 import Register from "./pages/Register";
 import Weather from "./pages/Weather";
-import NotFound from "./pages/Notfound";
+import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer";
 import Maps from "./pages/Maps";
 
